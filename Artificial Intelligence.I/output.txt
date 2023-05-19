@@ -1,0 +1,56 @@
+Enter Initial State: 
+Enter Final State: 
+The Astar_Tiles_misplaced took 6.413459777832031e-05 seconds to run.
+Number of Moves required to reach final state: 5
+Path: 
+2 8 3 
+1 6 4 
+7 _ 5 
+
+2 8 3 
+1 _ 4 
+7 6 5 
+
+2 _ 3 
+1 8 4 
+7 6 5 
+
+_ 2 3 
+1 8 4 
+7 6 5 
+
+1 2 3 
+_ 8 4 
+7 6 5 
+
+1 2 3 
+8 _ 4 
+7 6 5 
+
+The Astar_Tiles_distance took 6.079673767089844e-05 seconds to run.
+Number of Moves required to reach final state: 5
+Path: 
+2 8 3 
+1 6 4 
+7 _ 5 
+
+2 8 3 
+1 _ 4 
+7 6 5 
+
+2 _ 3 
+1 8 4 
+7 6 5 
+
+_ 2 3 
+1 8 4 
+7 6 5 
+
+1 2 3 
+_ 8 4 
+7 6 5 
+
+1 2 3 
+8 _ 4 
+7 6 5 
+

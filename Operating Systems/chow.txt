@@ -1,0 +1,28 @@
+Enter Allocation Matrix: 
+3 5 4
+4 3 3
+3 4 3
+5 4 5
+Enter MAX Need Matrix: 
+6 9 24
+12 5 20
+25 8 13
+7 12 19
+Enter Availabitity: 
+15 14 15
+
+SAFE
+P0      P1      P2      P3
+2       3       4       1
+
+Process number: 1
+Enter Additional request: 
+0 2 2
+
+UNSAFE
+
+Process number: 2
+Enter Additional request: 
+2 0 3
+
+UNSAFE% 

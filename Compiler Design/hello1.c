@@ -1,0 +1,1 @@
+#include<stdio.h>voidmain(){printf("Hello//Hello/*hello*/");}ÿ

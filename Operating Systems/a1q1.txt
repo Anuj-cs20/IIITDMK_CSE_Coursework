@@ -1,0 +1,90 @@
+Enter Number of processes: 10
+Enter time quantum: 4
+Enter context switch time: 0
+Enter arrival time of 1: 0
+Enter burst time of 1: 15
+Enter arrival time of 2: 2
+Enter burst time of 2: 25
+Enter arrival time of 3: 4
+Enter burst time of 3: 15
+Enter arrival time of 4: 5
+Enter burst time of 4: 25
+Enter arrival time of 5: 7
+Enter burst time of 5: 18
+Enter arrival time of 6: 7
+Enter burst time of 6: 5
+Enter arrival time of 7: 12
+Enter burst time of 7: 22
+Enter arrival time of 8: 14
+Enter burst time of 8: 5
+Enter arrival time of 9: 14
+Enter burst time of 9: 20
+Enter arrival time of 10: 17
+Enter burst time of 10: 17
+
+Ready Queue: 
+p1 
+p2 p3 p1 
+p3 p1 p4 p5 p6 p2 
+p1 p4 p5 p6 p2 p7 p3 
+p4 p5 p6 p2 p7 p3 p8 p9 p1 
+p5 p6 p2 p7 p3 p8 p9 p1 p10 p4 
+p6 p2 p7 p3 p8 p9 p1 p10 p4 p5 
+p2 p7 p3 p8 p9 p1 p10 p4 p5 p6 
+p7 p3 p8 p9 p1 p10 p4 p5 p6 p2 
+p3 p8 p9 p1 p10 p4 p5 p6 p2 p7 
+p8 p9 p1 p10 p4 p5 p6 p2 p7 p3 
+p9 p1 p10 p4 p5 p6 p2 p7 p3 p8 
+p1 p10 p4 p5 p6 p2 p7 p3 p8 p9 
+p10 p4 p5 p6 p2 p7 p3 p8 p9 p1 
+p4 p5 p6 p2 p7 p3 p8 p9 p1 p10 
+p5 p6 p2 p7 p3 p8 p9 p1 p10 p4 
+p6 p2 p7 p3 p8 p9 p1 p10 p4 p5 
+p2 p7 p3 p8 p9 p1 p10 p4 p5 
+p7 p3 p8 p9 p1 p10 p4 p5 p2 
+p3 p8 p9 p1 p10 p4 p5 p2 p7 
+p8 p9 p1 p10 p4 p5 p2 p7 p3 
+p9 p1 p10 p4 p5 p2 p7 p3 
+p1 p10 p4 p5 p2 p7 p3 p9 
+p10 p4 p5 p2 p7 p3 p9 
+p4 p5 p2 p7 p3 p9 p10 
+p5 p2 p7 p3 p9 p10 p4 
+p2 p7 p3 p9 p10 p4 p5 
+p7 p3 p9 p10 p4 p5 p2 
+p3 p9 p10 p4 p5 p2 p7 
+p9 p10 p4 p5 p2 p7 
+p10 p4 p5 p2 p7 p9 
+p4 p5 p2 p7 p9 p10 
+p5 p2 p7 p9 p10 p4 
+p2 p7 p9 p10 p4 p5 
+p7 p9 p10 p4 p5 p2 
+p9 p10 p4 p5 p2 p7 
+p10 p4 p5 p2 p7 p9 
+p4 p5 p2 p7 p9 p10 
+p5 p2 p7 p9 p10 p4 
+p2 p7 p9 p10 p4 
+p7 p9 p10 p4 p2 
+p9 p10 p4 p2 p7 
+p10 p4 p2 p7 
+p4 p2 p7 
+p2 p7 p4 
+p7 p4 
+p4 
+
+Round Robin with Context Switch
+pid     at      bt      ct      tat     wt      rt
+1       0       15      85      85      70      0
+2       2       25      164     162     137     2
+3       4       15      108     104     89      4
+4       5       25      167     162     137     11
+5       7       18      146     139     121     13
+6       7       5       65      58      53      17
+7       12      22      166     154     132     20
+8       14      5       78      64      59      26
+9       14      20      158     144     124     30
+10      17      17      159     142     125     35
+
+Average Turnaround time: 121.400002
+Average Waiting time: 104.699997
+Average Response time: 15.800000
+No. of Context Switching: 46      

@@ -1,0 +1,65 @@
+Allocation: 
+3 5 4
+4 3 3
+3 4 3
+5 4 5
+
+MAX: 
+15 25 15
+25 18 5
+22 5 20
+25 5 18
+
+Need:
+12 20 11
+21 15 2
+19 1 17
+20 1 13
+
+Availabitity: 
+15 14 15
+
+UNSAFE: 
+in all processes Availabitity is less than required
+
+Process number: 1
+Additional request: 
+0 2 2
+
+Allocation: 
+3 7 6
+4 3 3
+3 4 3
+5 4 5
+
+Need:
+12 18 9
+21 15 2
+19 1 17
+20 1 13
+
+Availabitity: 
+15 14 15
+
+UNSAFE  
+
+Process number: 2
+Additional request: 
+2 0 3
+
+Allocation: 
+3 7 6
+6 3 5
+3 4 3
+5 4 5
+
+Need:
+12 20 11
+19 15 0
+19 1 17
+20 1 13
+
+Availabitity: 
+15 14 15
+
+UNSAFE
