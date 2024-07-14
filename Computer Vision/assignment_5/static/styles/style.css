@@ -1,0 +1,217 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:14px;
+  color: black;
+}
+
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, #9bafd9 0%, #103783 100%);
+  color:white;
+}
+.inner-header {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.form{
+  position: relative;
+}
+.waves {
+  position:relative;
+  width: 100%;
+  height:10vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:150px;
+  max-height:200px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
+  }
+}
+#formID{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+#title{
+    font-family:'Noto Serif Display',serif;
+    top:0;
+    text-align: center; 
+    color: black;
+}
+#File_input{
+    display: none;
+    cursor: pointer;
+}
+#label_input{
+    font-size: larger;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+#label_input:hover{
+    font-size: 1.5em;
+}
+#predict_button{
+    font-size: medium;
+    transition: all 300ms ease-in-out;
+}
+#predict_button:hover{
+    font-size: 1.15em;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.copyright{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: rgb(58, 29, 29);
+    bottom: 0;
+}
+#result{
+    font-size: larger;
+    font-family:'Noto Serif Display',serif;
+    text-align: center;
+}
+
+.custom-underline,
+.custom-underline:hover,
+.custom-underline:focus,
+.custom-underline:active {
+  color: white;
+  text-decoration: none;
+}
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+}
+
+.box-c{
+  color:rgb(58, 29, 29);
+}
+.box-c .custom-underline::after {
+  top:10%;
+  height: 2px !important;
+  width: 20%;
+  left: 40%;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: 0.4s ease-out all .1s;
+}
+
+.box-c:hover .custom-underline::after {
+  width: 60%;
+  left: 20%;
+  transition: 0.5s ease all;
+}
+h4{
+  font-family: 'Gideon Roman',sans-serif;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  transition: all 300ms ease-in-out;
+}
+.fa-github{
+  background: black;
+  color: white;
+  transition: all 300ms ease-in-out;
+}
+.fa-linkedin:hover{
+  color: white;
+  transform: scale(1.25);
+}
+.fa-github:hover{
+  color: white;
+  transform: scale(1.25);
+}
+
+.contact{
+  text-align: right;
+  float:right !important;
+  position: relative; bottom: 10px;
+  right:16px; 
+}
+.social{
+  text-align: left;
+  float: left !important;
+  position: relative; bottom:0;
+  left:16px;
+}
+
+#git_link{
+  color:white;
+}
